@@ -48,6 +48,7 @@ button {
   color: var(--white);
   background-color: var(--blue);
   cursor: pointer;
+  
 }
 
 button:hover {
@@ -59,6 +60,7 @@ button:hover {
   flex-wrap: wrap;
   gap: 20px;
   justify-content: center;
+  
 }
 
 .card {
@@ -72,11 +74,13 @@ button:hover {
   border-radius: 10px;
   overflow: hidden;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border: solid 2px red;
 }
 
 .card img {
   width: 60%;
-  height: 50%;
+  height: 62%;
+  object-fit: contain;
 }
 
 .card-content {
@@ -90,6 +94,7 @@ button:hover {
 
 .card-content p {
   color: #333;
+  
 }
 
 .modal {
